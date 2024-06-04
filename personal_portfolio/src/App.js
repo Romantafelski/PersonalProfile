@@ -1,5 +1,6 @@
 import logo from './logo.svg'
 import MyLogo from './MyLogo.png'
+import MPROSolo from './MPROSolo.jpg'
 import './App.css';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
           <h3 className='menuItem'>About Me</h3>
           <h3 className='menuItem'>Resume</h3>
           <h3 className='menuItem'>Projects</h3>
+        <img className='me' src={MPROSolo} alt="Roman" />
         </menu>
       </header>
     </div>

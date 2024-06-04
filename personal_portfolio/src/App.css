@@ -1,5 +1,6 @@
 body{
 font-family:galada;
+background-color: black;
 }
 
 menu{
@@ -7,20 +8,31 @@ menu{
   align-items: flex-start;
   background-color: #02334e;
   color: rgb(248, 248, 248);
-  height: 14vh;
+  height: 11vh;
+  margin-top: 1px;
 }
 .menuItem {
   font-family: "Dongle", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 37px;
+  font-size: 45px;
   margin-right: 3vw;
-  margin-top: 65px;
+  margin-top: 40px;
+  border: 12px black;
 }
 .MyLogo {
-  height: 11vh;
-  width: 11vw;
+  height: 8vh;
+  width: 7vw;
   margin-left: -2.3vw;
   margin-top: 9px;
-  margin-right: 1vw;
+  margin-right: 4vw;
+}
+
+.me {
+  height: 60vh;
+  position:sticky;
+  left: 93%;
+  bottom: 100%;
+  clip-path: inset(0px 0px 300px 0 round 290px);
+  margin-top: 200px;
 }
