@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './logo.svg'
 import './App.css';
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <menu>
-          <img src='RoLogo.png' />
+          <img src='RoLogo.jpg' alt="Roman's Logo" />
           <h3 className='menuItem'>Home</h3>
           <h3 className='menuItem'>About Me</h3>
           <h3 className='menuItem'>Resume</h3>
