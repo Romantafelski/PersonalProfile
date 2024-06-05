@@ -23,7 +23,7 @@ menu{
 .MyLogo {
   height: 8vh;
   width: 7vw;
-  margin-left: -2.3vw;
+  margin-left: -2.1vw;
   margin-top: 9px;
   margin-right: 4vw;
 }
@@ -31,7 +31,7 @@ menu{
 .me {
   height: 60vh;
   position:sticky;
-  left: 93%;
+  left: 87%;
   bottom: 100%;
   clip-path: inset(0px 0px 300px 0 round 290px);
   margin-top: 200px;
