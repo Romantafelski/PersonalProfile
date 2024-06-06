@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+
 import Background from "./Background.jpg";
 import MyLogo from "./MyLogo.png";
 import MPROSolo from "./MPROSolo.jpg";
@@ -11,12 +11,12 @@ function App() {
       <div className="circle"></div>
       <img className="me" src={MPROSolo} alt="Roman" />
       <menu>
-        <h3 className="menuItem" id="home">Home</h3>
-        <h3 className="menuItem">About Me</h3>
-        <h3 className="menuItem">Resume</h3>
-        <h3 className="menuItem">Projects</h3>
+        <button className="menuItem" id="home">Home</button>
+        <button className="menuItem">About Me</button>
+        <button className="menuItem">Resume</button>
+        <button className="menuItem">Projects</button>
       </menu>
-        <img className="menuItem" id="myLogo" src={MyLogo} alt="Logo" />
+      <img className="menuItem" id="myLogo" src={MyLogo} alt="Logo" />
     </div>
   );
 }
