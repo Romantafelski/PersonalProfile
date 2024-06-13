@@ -1,24 +1,25 @@
 
-import Background from "./Background.jpg";
-import MyLogo from "./MyLogo.png";
-import MPROSolo from "./MPROSolo.jpg";
 import "./App.css";
+import React from "react";
+import {Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import Resume from "./MenuPages/Resume"
+import About from "./MenuPages/About";  
+import Projects from "./MenuPages/Projects"
+import Home from "./MenuPages/Home"
 
 function App() {
   return (
     <div className="App">
-      <img className="background" src={Background} />
-      <div className="circle"></div>
-      <img className="me" src={MPROSolo} alt="Roman" />
-      <menu>
-        <button className="menuItem" id="home">Home</button>
-        <button className="menuItem">About Me</button>
-        <button className="menuItem">Resume</button>
-        <button className="menuItem">Projects</button>
-      </menu>
-      <img className="menuItem" id="myLogo" src={MyLogo} alt="Logo" />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path=" projects" element={<Projects />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
 
-export default App;
+  export default App;

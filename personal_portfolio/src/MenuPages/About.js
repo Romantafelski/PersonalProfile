@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import Nav from "../Nav";
 import "./Main.css";
 
-function Resume() {
+function About() {
   return (
     <div>
       <Nav />
@@ -38,4 +38,4 @@ function Resume() {
   );
 }
 
-export default Resume;
+export default About;

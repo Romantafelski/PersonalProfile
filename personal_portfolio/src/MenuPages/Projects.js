@@ -2,10 +2,10 @@ import React from "react";
 import Background from "../Images/Background.jpg";
 import MyLogo from "../Images/MyLogo.png";
 import { Link } from "react-router-dom";
-import Nav from "../Nav";
+import Nav from "../Nav"
 import "./Main.css";
 
-function Resume() {
+function Projects() {
   return (
     <div>
       <Nav />
@@ -38,4 +38,4 @@ function Resume() {
   );
 }
 
-export default Resume;
+export default Projects;
