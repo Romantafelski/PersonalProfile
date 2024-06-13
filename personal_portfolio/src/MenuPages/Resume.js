@@ -8,7 +8,7 @@ import "./Main.css";
 function Resume() {
   return (
     <div>
-      <Nav />
+      <Nav className="Nav" />
       <img className="background" src={Background} />
       <div className="circle"></div>
       <menu>
