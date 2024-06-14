@@ -6,7 +6,7 @@ import "./Nav.css";
 function Navbar() {
   return (
     <div>
-      <menu>
+      <span className="nav">
         <img button="onclick" className="myLogo" src={MyLogo} alt="Logo" />
         <Link to="/">
           <button type="button" className="menuItems">
@@ -22,7 +22,7 @@ function Navbar() {
         <Link to="/projects">
           <button className="menuItems">Projects</button>
         </Link>
-      </menu>
+      </span>
     </div>
   );
 }

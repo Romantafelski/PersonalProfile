@@ -1,9 +1,9 @@
-menu {
+.nav {
   display: inline-flex;
   justify-content: flex-start;
   align-items: center;
-  height:48px;
-  width: 2000cm;
+  height: auto;
+  width: 100vw;
   margin-top: auto;
   margin-bottom: auto;
   background-color: rgb(32, 32, 32);
@@ -33,6 +33,6 @@ button:hover {
 .myLogo {
   height: 35px;
   width: 70px;
-  margin-left: -33px;
+  margin-left: .3%;
   background: none;
 }

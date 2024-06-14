@@ -1,0 +1,29 @@
+.resumePage {
+    position: sticky;
+}
+.documents {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5cm;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+iframe {
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    overflow: hidden;
+    background-color: blue;
+    opacity: 100%;
+}
+
+.background {
+  position: fixed;
+  filter:opacity(22%) grayscale(100%);
+  height: 100vh;
+  width: 100vw;
+}
