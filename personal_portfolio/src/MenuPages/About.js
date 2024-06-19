@@ -1,14 +1,11 @@
 import React from "react";
-import Nav from "../Nav";
-import Background from "../Images/Background.jpg";
-import "./Main.css";
+import MPROSolo from "../Images/MPROSolo.jpg";
+import "./Home.css";
 
 function About() {
   return (
     <div>
-      <Nav />
-      <img className="background" src={Background} />
-      <div className="circle"></div>
+      <h1>Hello</h1>
     </div>
   );
 }

@@ -1,17 +1,30 @@
 import React from "react";
-import Background from "../Images/Background.jpg";
-import MPROSolo from "../Images/MPROSolo.jpg";
-import Nav from "../Nav";
-import "./Main.css";
+import { Link } from "react-router-dom";
+import MyLogo from "../Images/MyLogo.png";
+import "./Home.css";
 
 function Home() {
   return (
     <div>
-      <Nav className="Nav"/>
-      <img className="background" src={Background} />
-      <div className="circle"></div>
-      <img className="me" src={MPROSolo} alt="Roman" />
-    </div>
+      <img className="logo" src={MyLogo} />
+      <span>
+        <h1>Roman Tafelski</h1>
+        <h4>Software Engineer</h4>
+      </span>
+        <Link to="/about">
+          <button className="menuItems, about">About Me</button>
+        </Link>
+        <Link to="/resume">
+          <button className="menuItems, resume">
+            Resume
+          </button>
+        </Link>
+        <Link to="/projects">
+          <button className="menuItems, projects">
+            Projects
+          </button>
+        </Link>
+      </div>
   );
 }
 

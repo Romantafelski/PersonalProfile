@@ -1,5 +1,5 @@
 .resumePage {
-    position: sticky;
+    position: absolute;
 }
 .documents {
     position: static;
@@ -17,7 +17,7 @@ iframe {
     align-items: center;
     border: 2px solid black;
     overflow: hidden;
-    background-color: blue;
+    background-color: rgb(196, 196, 253);
     opacity: 100%;
 }
 

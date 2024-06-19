@@ -1,0 +1,40 @@
+.logo {
+  position:sticky;
+  height:15%;
+  width:20%;
+  left: 25%;
+  right: 25%;
+  top: 25%;
+  bottom: 25%;
+}
+
+button {
+  color: Black;
+  font-family: "Dongle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 78px;
+  border: none;
+  height: 45vh;
+  width: 45vh;
+  }
+
+.about {
+background-color: rgb(130, 255, 213);
+}
+
+.resume {
+background-color: rgb(150, 255, 255);
+}
+
+.projects {
+background-color: rgb(230, 183, 255);
+}
+  
+span {
+  color: white;
+}
+
+button:hover{
+  background-color: rgb(255, 156, 156);
+}
